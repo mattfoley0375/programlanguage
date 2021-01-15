@@ -1,12 +1,14 @@
 function results(input1, input2, input3, input4, input5) {
   const total = input1 + input2 + input3 + input4 + input5;
 
-  if(total <= 5){
+  if(total <= 7){
     language = "Ruby";
-  } else if(total <= 7){
+  } else if(total <= 11){
     language = "Python";
+  } else if (total <= 15) {
+    language = "React"
   } else {
-    language = "React";
+    alert ('WAIT! PLEASE FILL OUT FOR ANSWER')
   }
   return language;
 }
