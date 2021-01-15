@@ -18,11 +18,11 @@ $(document).ready(function() {
   $("form#lang").submit(function() {
     event.preventDefault();
 
-    const work = parseInt($("#work").val());
-    const style = parseInt($("#style").val());
-    const movie = parseInt($("#movie").val());
-    const music = parseInt($("#music").val());
-    const season = parseInt($("#season").val());
+    const work = parseInt($("input:radio(name=work)").val());
+    const style = parseInt($("input:radio(name=style)").val());
+    const movie = parseInt($("input:radio(name=movie)").val());
+    const music = parseInt($("input:radio(name=music)").val());
+    const season = parseInt($("input:radio(name=season)").val());
     let language = results(work, style, movie, music, season)
 
     if (language === "Ruby") {
