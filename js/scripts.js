@@ -3,5 +3,5 @@ $(document).ready(function() {
     event.preventDefault();
 
     const work = parseInt($("#work").val());
-    const look = parseInt($("#look").val());
-    
+    const style = parseInt($("#style").val());
+    const movie = parseInt($("#movie").val());
