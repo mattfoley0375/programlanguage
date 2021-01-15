@@ -11,15 +11,15 @@ Direct Link:
 * GIT
 * HTML
 * CSS
-*JavaScript
-*JQuery
+* JavaScript
+* JQuery
 
 ## Description
 
 This webpage gives users who are interested in coding an opportunity to decide which language they should learn first.
 ## Setup/Installation Requirements
 
-* You need a basic pc with internet accesss to open this html
+* You need a basic pc with internet access to open this html
 * Clone the repository to somewhere safe on your desktop where you can access it
 * Go to the top level of the directory and open index.html in your browser
 
