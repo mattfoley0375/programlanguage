@@ -1,7 +1,7 @@
 function results(input1, input2, input3) {
   const total = input1 + input2 + input3;
 
-  if(total <= 5){
+  if(total <= 6){
     language = "Ruby";
   } else if(total <= 9){
     language = "Python";
