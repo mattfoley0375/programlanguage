@@ -1,12 +1,26 @@
 h1 {
   color: coral;
-  font-family:consola;
+  font-family:sans-serif;
   text-align: center;
   font-size: 60px;
+  text-shadow: black;
 }
 
 h2 {
   color: black;
   font-family: sans-serif;
   text-align: center;
+}
+
+h3 {
+  text-align: center;
+  color: coral;
+  float:right
+}
+
+
+body {
+  background-color: rgb(5, 148, 134);
+  
+  ;
 }
