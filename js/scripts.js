@@ -1,11 +1,11 @@
 function results(input1, input2, input3) {
   const total = input1 + input2 + input3;
 
-  if(total <= 7){
+  if(total <= 5){
     language = "Ruby";
-  } else if(total <= 11){
+  } else if(total <= 9){
     language = "Python";
-  } else if(total <= 15) {
+  } else {
     language = "React";
   }
   return language;
@@ -33,7 +33,7 @@ $(document).ready(function() {
       $("#answer").text("Python");
       $(".pic").hide();
       $("#Py").show();
-    } else if (language === "React {
+    } else {
       $("#output").show();
       $("#answer").text("React");
       $(".pic").hide();
