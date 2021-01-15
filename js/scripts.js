@@ -7,3 +7,4 @@ $(document).ready(function() {
     const movie = parseInt($("#movie").val());
     const music = parseInt($("#music").val());
     const season = parseInt($("#season").val());
+    let language = results(work, style, movie, music, season)
