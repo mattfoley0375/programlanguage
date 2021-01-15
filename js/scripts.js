@@ -1,3 +1,17 @@
+function results(input1, input2, input3) {
+  const total = input1 + input2 + input3;
+
+  if(total <= 7){
+    language = "Ruby";
+  } else if(total <= 11){
+    language = "Python";
+  } else if(total <= 15) {
+    language = "React";
+  }
+  return language;
+}
+
+//User Logic
 $(document).ready(function() {
   $("form#lang").submit(function() {
     event.preventDefault();
@@ -8,3 +22,22 @@ $(document).ready(function() {
     const music = parseInt($("#music").val());
     const season = parseInt($("#season").val());
     let language = results(work, style, movie, music, season)
+
+    if (language === "Ruby") {
+      $("#output").show();
+      $("#answer").text("Ruby");
+      $(".pic").hide();
+      $("#Ru").show(); 
+    } else if (language === "Python") {
+      $("#output").show();
+      $("#answer").text("Python");
+      $(".pic").hide();
+      $("#Py").show();
+    } else if (language === "React {
+      $("#output").show();
+      $("#answer").text("React");
+      $(".pic").hide();
+      $("#Re").show();
+    }
+  });
+});
