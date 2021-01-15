@@ -7,9 +7,7 @@ function results(input1, input2, input3, input4, input5) {
     language = "Python";
   } else if (total <= 15) {
     language = "React"
-  } else {
-    alert ('WAIT! PLEASE TRY AGAIN FOR AN ANSWER')
-  }
+  } 
   return language;
 }
 
@@ -36,10 +34,6 @@ $(document).ready(function() {
       $("#answer").hide();
       $("#answer").show();
       $("#languages").text("React");
-    } else {
-      $("#answer").hide();
-      $("#answer").show();
-      alert('FILL OUT THE SURVEY!');
     }
     $("#answer").show();
   });
