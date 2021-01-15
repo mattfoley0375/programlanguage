@@ -1,111 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-  <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <script src="js/jquery-3.5.1.js"></script>
-  <script src="js/scripts.js"></script>
-  <title>Programming Languages</title>
-</head>
-<body>
-  <div class="container-fluid">
-    <h1>Programming Language Suggester</h1>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Programming Languages</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <h1>Programming Language Suggester</h1>
       <br>
-    <h2>Find out what programming language you would like to learn by answering the questions below</h2>
+      <h2>Find out what programming language you would like to learn by answering the questions below</h2>
       <br>
       <form id="lang">
-      <ol>
-        <li><p>How would you describe your ideal work day?</p></li>
-        <div class="radio">
-          <label>
+        <ol>
+          <li>
+            <p>How would you describe your ideal work day?</p>
+          </li>
+          <div class="radio">
+            <label>
             <input type="radio" name="work" value="1">Simple & Productive
-          </label>
-        </div>
-        <div class="radio">
-          <label>
+            </label>
+          </div>
+          <div class="radio">
+            <label>
             <input type="radio" name="work" value="2">Powerful & Intuitive
-          </label>
-        </div>
-        <div class="radio">
-          <label>
+            </label>
+          </div>
+          <div class="radio">
+            <label>
             <input type="radio" name="work" value="3">Efficient & Flexible
-          </label>
-        </div>
-      <br>
-      <li><p>What kind of clothing "style" do you identify with?</p></li>
-        <div class="radio">
-          <label>
+            </label>
+          </div>
+          <br>
+          <li>
+            <p>What kind of clothing "style" do you identify with?</p>
+          </li>
+          <div class="radio">
+            <label>
             <input type="radio" name="style" value="1">Cool & Hip
-          </label>
-        </div>
-        <div class="radio">
-          <label>
+            </label>
+          </div>
+          <div class="radio">
+            <label>
             <input type="radio" name="style" value="2">Plain & Mute
-          </label>
-        </div>
-        <div class="radio">
-          <label>
+            </label>
+          </div>
+          <div class="radio">
+            <label>
             <input type="radio" name="style" value="3">Basic & Mainstream
-          </label>
-        </div>
-        <br>
-        <li><p>Which cinematic universe would you live in?</p></li>
-        <div class="radio">
-          <label>
+            </label>
+          </div>
+          <br>
+          <li>
+            <p>Which cinematic universe would you live in?</p>
+          </li>
+          <div class="radio">
+            <label>
             <input type="radio" name="movie" value="1">Lord of the Rings
-          </label>
-        </div>
-        <div class="radio">
-          <label>
+            </label>
+          </div>
+          <div class="radio">
+            <label>
             <input type="radio" name="movie" value="2">Mad Max
-          </label>
-        </div>
-        <div class="radio">
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="movie" value="3">Marvel
+          </div>
+          <br>
+          <li><p>Which genre of music do you prefer?</p></li>
+          <div class="radio">
           <label>
-            <input type="radio" name="movie" value="3">Marvel
-        </div>
-      <br>
-      <li><p>Which genre of music do you prefer?</p></li>
-      <div class="radio">
-        <label>
           <input type="radio" name="music" value="1">Rap/Hip-Hop
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="music" value="2">Metal/Rock
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="music" value="3">Pop/Top 40
-      </div>
-      <br>
-      <li><p>Which one of these times of year do you prefer?</p></li>
-        <div class="radio">
-          <label>
-            <input type="radio" name="season" value="1">Spring/Early Summer
           </label>
-        </div>
-        <div class="radio">
+          </div>
+          <div class="radio">
+            <label>
+            <input type="radio" name="music" value="2">Metal/Rock
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="music" value="3">Pop/Top 40
+          </div>
+          <br>
+          <li><p>Which one of these times of year do you prefer?</p></li>
+          <div class="radio">
           <label>
+          <input type="radio" name="season" value="1">Spring/Early Summer
+          </label>
+          </div>
+          <div class="radio">
+            <label>
             <input type="radio" name="season" value="2">Late Fall/Early Winter
-          </label>
-        </div>
-        <div class="radio">
-          <label>
+            </label>
+          </div>
+          <div class="radio">
+            <label>
             <input type="radio" name="season" value="3">Late Summer/Early Fall
-        </div>
-      </li>
-    </ol>
-    <br>
-    <button type="submit" class="btn">Let's Find Out!</button>
-  </form>
-  
-  <div id="answer">
-    <p>Your suggested programming language to learn is <span id="languages"></span></p>
-  </div>
-
-  </form>
-  </div>
-</body>
+          </div>
+          </li>
+        </ol>
+        <br>
+        <button type="submit" class="btn">Let's Find Out!</button>
+      </form>
+      <div id="answer">
+        <p>Your suggested programming language to learn is <span id="languages"></span></p>
+      </div>
+    </div>
+  </body>
+</html>
