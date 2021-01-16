@@ -4,8 +4,6 @@
 
 #### Deciding which programming language to learn.
 
-Direct Link: 
-
 ## Techologies Used
 
 * GIT
