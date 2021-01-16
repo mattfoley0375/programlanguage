@@ -4,7 +4,7 @@
 
 #### Deciding which programming language to learn.
 
-## Techologies Used
+## Technologies Used
 
 * GIT
 * HTML
