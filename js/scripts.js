@@ -11,7 +11,6 @@ function results(input1, input2, input3, input4, input5) {
   return language;
 }
 
-//User Logic
 $(document).ready(function() {
   $("form#lang").submit(function(event) {
     event.preventDefault();

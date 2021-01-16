@@ -4,8 +4,6 @@
 
 #### Deciding which programming language to learn.
 
-Direct Link: 
-
 ## Techologies Used
 
 * GIT
@@ -17,6 +15,7 @@ Direct Link:
 ## Description
 
 This webpage gives users who are interested in coding an opportunity to decide which language they should learn first.
+
 ## Setup/Installation Requirements
 
 * You need a basic pc with internet access to open this html

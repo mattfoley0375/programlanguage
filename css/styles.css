@@ -15,12 +15,10 @@ h2 {
 h3 {
   text-align: center;
   color: coral;
-  float:right
+  float: right;
 }
-
 
 body {
   background-color: rgb(5, 148, 134);
-  
-  ;
+  font-size: 20px;
 }
