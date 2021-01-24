@@ -2,13 +2,14 @@ function results(input1, input2, input3, input4, input5) {
   const total = input1 + input2 + input3 + input4 + input5;
 
   if(total <= 5) {
-    language = "Ruby";
+    language = "Your suggested programming language to learn is Ruby";
   } else if(total <= 9) {
-    language = "Python";
+    language = "Your suggested programming language to learn is Python";
   } else if (total <= 15) {
-    language = "React"
+    language = "Your suggested programming language to learn is React"
   } 
   return language;
+  
 }
 
 $(document).ready(function() {
@@ -21,19 +22,20 @@ $(document).ready(function() {
     const season = parseInt($("input:radio[name=season]:checked").val());
     let languages = results(work, style, movie, music, season);
 
-    if (languages === "Ruby") {
+    if (languages === "Your suggested programming language to learn is Ruby") {
       $("#answer").hide();
       $("#answer").show();
-      $("#languages").text("Ruby");
-    } else if (languages === "Python") {
+      $("#languages").text("Your suggested programming language to learn is Ruby");
+    } else if (languages === "Your suggested programming language to learn is Python") {
       $("#answer").hide();
       $("#answer").show();
-      $("#languages").text("Python");
-    } else if (languages === "React") {
+      $("#languages").text("Your suggested programming language to learn is Python");
+    } else if (languages === "Your suggested programming language to learn is React") {
       $("#answer").hide();
       $("#answer").show();
-      $("#languages").text("React");
+      $("#languages").text("Your suggested programming language to learn is React");
     }
     $("#answer").show();
   });
 });
+
