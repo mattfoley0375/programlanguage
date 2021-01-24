@@ -9,93 +9,93 @@
   </head>
   <body>
     <div class="container-fluid">
-      <h1>Programming Language Suggester</h1>
-      <h2>Find out what programming language you would like to learn by answering the questions below</h2>
+      <h1 class="box1">Programming Language Suggester</h1>
+      <h2 class="box2">Find out what programming language you would like to learn by answering the questions below:</h2>
       <form id="lang">
-        <strong>1. How would you describe your ideal work day?</strong>
+        <p><strong>1. How would you describe your ideal work day?</strong></p>
         <div class="radio">
           <label>
-          <input type="radio" name="work" value="1">Simple & Productive
+          <input type="radio" name="work" value="1"><span class="label">Simple & Productive</span>
           </label>
         </div>
         <div class="radio">
           <label>
-          <input type="radio" name="work" value="2">Powerful & Intuitive
+            <input type="radio" name="work" value="2"><span class="label">Powerful & Intuitive</span>
           </label>
         </div>
         <div class="radio">
           <label>
-          <input type="radio" name="work" value="3">Efficient & Flexible
+          <input type="radio" name="work" value="3"><span class="label">Efficient & Flexible</span>
           </label>
         </div>
-        <strong>2. What kind of clothing "style" do you identify with?</strong>
+        <p><strong>2. What kind of clothing "style" do you identify with?</strong></p>
         <div class="radio">
           <label>
-          <input type="radio" name="style" value="1">Cool & Hip
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-          <input type="radio" name="style" value="2">Plain & Mute
+          <input type="radio" name="style" value="1"><span class="label">Cool & Hip</span>
           </label>
         </div>
         <div class="radio">
           <label>
-          <input type="radio" name="style" value="3">Basic & Mainstream
-          </label>
-        </div>
-        <strong>3. Which cinematic universe would you live in?</strong>
-        <div class="radio">
-          <label>
-          <input type="radio" name="movie" value="1">Lord of the Rings
+          <input type="radio" name="style" value="2"><span class="label">Plain & Mute</span>
           </label>
         </div>
         <div class="radio">
           <label>
-          <input type="radio" name="movie" value="2">Mad Max
+          <input type="radio" name="style" value="3"><span class="label">Basic & Mainstream</span>
+          </label>
+        </div>
+        <p><strong>3. Which cinematic universe would you live in?</strong></p>
+        <div class="radio">
+          <label>
+          <input type="radio" name="movie" value="1"><span class="label">Lord of the Rings</span>
           </label>
         </div>
         <div class="radio">
           <label>
-          <input type="radio" name="movie" value="3">Marvel
-          </label>
-        </div>
-        <strong>4. Which genre of music do you prefer?</strong>
-        <div class="radio">
-          <label>
-          <input type="radio" name="music" value="1">Rap/Hip-Hop
+          <input type="radio" name="movie" value="2"><span class="label">Mad Max</span>
           </label>
         </div>
         <div class="radio">
           <label>
-          <input type="radio" name="music" value="2">Metal/Rock
+          <input type="radio" name="movie" value="3"><span class="label">Marvel</span>
+          </label>
+        </div>
+        <p><strong>4. Which genre of music do you prefer?</strong></p>
+        <div class="radio">
+          <label>
+          <input type="radio" name="music" value="1"><span class="label">Rap/Hip-Hop</span>
           </label>
         </div>
         <div class="radio">
           <label>
-          <input type="radio" name="music" value="3">Pop/Top 40
-          </label>
-        </div>
-        <strong>5. Which one of these times of year do you prefer?</strong>
-        <div class="radio">
-          <label>
-          <input type="radio" name="season" value="1">Spring/Early Summer
+          <input type="radio" name="music" value="2"><span class="label">Metal/Rock</span>
           </label>
         </div>
         <div class="radio">
           <label>
-          <input type="radio" name="season" value="2">Late Fall/Early Winter
+          <input type="radio" name="music" value="3"><span class="label">Pop/Top 40</span>
+          </label>
+        </div>
+        <p><strong>5. Which one of these times of year do you prefer?</strong></p>
+        <div class="radio">
+          <label>
+          <input type="radio" name="season" value="1"><span class="label">Spring/Early Summer</span>
           </label>
         </div>
         <div class="radio">
           <label>
-          <input type="radio" name="season" value="3">Late Summer/Early Fall
+          <input type="radio" name="season" value="2"><span class="label">Late Fall/Early Winter</span>
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+          <input type="radio" name="season" value="3"><span class="label">Late Summer/Early Fall</span>
           </label>
         </div>
         <button type="submit" class="btn btn-dark">Let's Find Out!</button>
       </form>
       <div id="answer">
-        <h3><span id="languages"></span></h3>
+        <h3 class="result"><span id="languages"></span></h3>
       </div>
     </div>
   </body>
