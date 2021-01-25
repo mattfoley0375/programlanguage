@@ -37,9 +37,6 @@ h2 {
   font-size: 70px;
   color: rgb(0, 0, 0);
   float: left;
-  margin-bottom: 80px;
-  margin-right: 100px;
-  margin-left: 500px;
 }
 
 div {
@@ -61,7 +58,7 @@ p {
   margin-top: 70px;
   margin-left: 65px;
   display: block;
-  width: 20%;
+  width: auto;
   border: none;
   padding: 14px 28px;
   font-size: 40px;
